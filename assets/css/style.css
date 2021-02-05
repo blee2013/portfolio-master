@@ -1,8 +1,8 @@
  
 :root {
-    --primary-color: #38c5bd;
+    --primary-color: #00c2cb;
     --secondary-color: #444;
-    --tetiary-color: #cb6ce6;
+    --tetiary-color:#8c52ff;
 }
 
 * {
@@ -132,9 +132,14 @@ align-items:right;
 .profileImg{
     float:right;
 }
+/* ABOUT ME STYLE ENDS */
 
-.summary{
-
+/* MY WORK STYLE STARTS */
+.mywork-grid-wrapper {
+    display: grid;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .parent{
@@ -151,11 +156,6 @@ align-items:right;
     height:50%;
 }
 
-
-
-/* ABOUT ME STYLE ENDS */
-
-/* MY WORK STYLE STARTS */
 .main-my-work-item{
      color: var(--primary-color);
     font-weight: bold;
@@ -192,19 +192,15 @@ align-items:right;
     position: absolute;
     top:100px;
     left:0px;
-    background-color: #cb6ce6;
+    background-color: var(--primary-color);
     color:white;
     width:100%;
     text-align: center;
-
+    font-size: 15px;
+    font-family: Helvetica, Arial, sans-serif;
 
 }
 
-.mywork-grid-wrapper {
-    display: grid;
-    width: 100%;
-    justify-content: center;
-}
 
 .mywork-grid-container {
     display:flex;
